@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>caruosel</title>
+	<!--css lnks-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon"  href="img/chorome.svg">
+</head>
+<body>
+
+<!--carousol starts-->
+<div class="container">
+  <div class="row-col-12">
+
+
+ <div id="carousel700" class="carousel slide">
+   <div class="carousel-inner">
+
+     <div class="carousel-item active">
+       <img src="img/sunset.jpg" class="d-block w-100" alt="sunset">
+     </div>
+
+<div class="carousel-item ">
+       <img src="img/street.jpg" class="d-block w-100" alt="sunset">
+     </div>
+
+<div class="carousel-item ">
+       <img src="img/traffic.jpg" class="d-block w-100" alt="sunset">
+     </div>
+
+<div class="carousel-item ">
+       <img src="img/boat.jpg" class="d-block w-100" alt="sunset">
+     </div>
+
+<div class="carousel-item ">
+       <img src="img/interior.jpg" class="d-block w-100" alt="sunset">
+     </div>
+
+<div class="carousel-item">
+  <img src="img/village.jpg" class="d-block w-100" alt="sunset">
+</div>
+ </div>
+ 
+  
+<!--carousel ends-->
+
+   <!--button starts-->
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel700" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel700" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+
+<!--button ends-->
+
+
+
+
+
+
+
+ <!--buttons start -->
+<div class="container">
+  <div class="row-cols-1">
+ <button type="button" class="btn btn-primary"> parimary blue</button>
+<button type="button" class="btn btn-outline-info"> info is cyan</button>
+<button type="button" class="btn btn-success">success is green</button>
+<button type="button" class="btn btn-outline-danger">Danger is red as always</button>
+<button type="button" class="btn btn-warning"> warning is yellow</button>
+<button type="button" class=" btn btn-dark"> Dark means black button</button>
+<button type="button" class="btn btn-light"> light white</button>
+
+</div>
+</div>
+ <!--buttons end-->
+
+<!--badge start-->
+<div class="con"> 
+  
+
+<h1> winter wear <span class="badge text-bg-secondary"> Early arrival</span></h1>
+  <h2> watch<span class="badge text-bg-info">new arrival</span></h2>
+
+
+<button  type="button" class="btn btn-secondary position-relative "> 
+  Inbox<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">99+
+    <span class="visually-hidden">unread messeges</span>
+  </span>
+</button>
+
+</div>
+<!--badge ends-->
+
+
+<!--card starts-->
+<div class="container">
+  <div class="row-col-12">
+
+ <div class="float-left">
+<div class="container px-4  text-center ">
+  <div class="row gx-5">
+    <div class="col">
+      <div class="card" style="width:25rem">
+        
+        <img src="img/sunset.jpg" class="card-img-top" alt="sunset">
+        <div class="card-body">
+          <h4 class="card-title">Farm</h4>
+          <p class="card-text"> An aesthetic farm ( not for sell)</p>
+           <a href="https://www.facebook.com/sabbirahamedverse" target="blank" class="btn btn-info">Click for more</a>
+       </div>
+     </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+ <div class="container px-4 text-center">
+  <div class="row gx-5">
+    <div class="col">
+      <div class="card" style="width: 25rem;">
+        <img src="img/interior.jpg" class="card-img-top" alt="car">
+        <div class="card-body">
+          <h4 class="card-title"> Mercades s660</h4>
+          <p class="card-text">Car for sell</p>
+          <p>price ******bdt</p>
+          <a href="https://www.facebook.com/sabbirahamedverse" target="blank" class="btn btn-info">Click for more</a>
+
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--card end-->
+
+<!--  modal button start -->
+
+<div class="container">
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal500">
+  click to see 
+</button>
+<!--  modal button end  -->
+<!-- Modal start-->
+<div class="modal fade" id="Modal500" tabindex="-1" aria-labelledby="Modal500" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="Modal500">info regarding this matter</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--modal end-->
+
+<!--tooltip starts-->
+
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+  Tooltip on top
+</button>
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom"> Tooltip on bottom.</button>
+<button type=" button" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="right"data-bs-title="Tooltip on right" > Tooltip on th right side</button>
+<button type="button" class="btn btn-secondary"  data-bs-toggle="tooltip" data-bs-placement="left"data-bs-title="Tooltip on left"  >Tooltip on the left side</button>
+
+<!--js links-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
